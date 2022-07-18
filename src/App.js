@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import SimpleInput from "./components/SimpleInput";
+import BasicForm from "./components/BasicForm";
 
 const App = () => {
   // const [title, setTitle] = useState("");
@@ -11,7 +12,8 @@ const App = () => {
 
   return (
     <div className="app">
-      <SimpleInput />
+      <BasicForm />
+      {/* <SimpleInput /> */}
     </div>
   );
 };
